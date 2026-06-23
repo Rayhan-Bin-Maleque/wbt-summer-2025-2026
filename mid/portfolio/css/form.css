@@ -1,0 +1,158 @@
+
+
+body {
+    background-color: #e8e8e8;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+*{
+    text-align: left;
+
+}
+
+
+
+h1 {
+    color: #d32f2f;
+    text-align: left;
+    font-size: 19px;
+    margin: 15px 0 10px 0;
+    padding: 0;
+}
+
+input[type="radio"] {
+    display: inline-block;
+
+    margin-right: 20px;
+}
+
+
+
+
+h2 {
+    color: #d32f2f;
+    text-align: left;
+    font-size: 15px;
+    margin: 15px 0 10px 0;
+    padding: 0;
+}
+td{
+    text-align: right;
+}
+
+p [name="recurring"] {
+    color: #000;
+    align-items: left;
+    font-size: 12px;
+    
+}
+
+
+label {
+    color: #000;
+    align-items: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+label span {
+    color: #d32f2f;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px 5px;
+    border: 1px solid #999;
+    font-size: 12px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 5px 5px;
+    border: 1px solid #999;
+    font-size: 12px;
+}
+
+input[type="tel"] {
+    width: 100%;
+    padding: 5px 5px;
+    border: 1px solid #999;
+    font-size: 12px;
+}
+
+input[type="text"][name="monthlyAmount"] {
+    width: 10%;
+}
+input[type="text"][name="monthlyMonths"] {
+    width: 10%;
+}
+
+input[type="text"][name="other Amount"] {
+    width: 30%;
+}
+input[type="text"][name="namex"] {
+    width: 200%;
+}
+
+select {
+    width: 70%;
+    padding: 5px 5px;
+    border: 1px solid #999;
+    font-size: 12px;
+    display: block;
+}
+
+li {
+            list-style: none;
+            display: inline-block;
+}
+
+td:last-child {
+    text-align: left !important;
+    
+}
+
+
+
+
+
+select[id="country"] [name="country"] {
+    width: 100%;
+    padding: 5px 5px;
+    border: 1px solid #999;
+    font-size: 12px;
+    display: block;
+}
+
+input[type="radio"] {
+    margin: 0 5px 0 0;
+}
+
+input [type="text"] [name="namex"] {
+    width: 200%;
+}
+
+input[type="submit"] {
+    padding: 6px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 15px 5px 0 0;
+}
+
+input[type="reset"] {
+    padding: 6px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #999;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 15px 5px 0 0;
+}
+
+small {
+    display: inline;
+    font-size: 11px;
+    color: #666;
+}
